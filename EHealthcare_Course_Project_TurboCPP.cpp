@@ -2209,55 +2209,6 @@ void billingManagement()
     }while(choice != 0);
 }
 
-/* ================================================================
-   OOP DEMONSTRATION
-   ================================================================ */
-
-void oopDemonstration()
-{
-    header((char *)"OOP CONCEPTS USED");
-
-    cout << "\n1. CLASS & OBJECT\n";
-    cout << "   Patient, Doctor, Appointment, Bill, etc.\n";
-
-    cout << "\n2. ENCAPSULATION\n";
-    cout << "   Private data members are accessed through methods.\n";
-
-    cout << "\n3. INHERITANCE\n";
-    cout << "   Patient, Doctor and Receptionist inherit Person.\n";
-
-    cout << "\n4. ABSTRACTION\n";
-    cout << "   Person is an abstract base class.\n";
-
-    cout << "\n5. POLYMORPHISM\n";
-    cout << "   Person::display() is virtual.\n";
-
-    cout << "\n6. CONSTRUCTOR\n";
-    cout << "   Classes initialize their data using constructors.\n";
-
-    cout << "\n7. COPY CONSTRUCTOR\n";
-    cout << "   Patient and Appointment implement copy construction.\n";
-
-    cout << "\n8. DESTRUCTOR\n";
-    cout << "   Patient, Doctor and Appointment have destructors.\n";
-
-    cout << "\n9. OPERATOR OVERLOADING\n";
-    cout << "   Date uses == and Bill uses >.\n";
-
-    cout << "\n10. FRIEND FUNCTION\n";
-    cout << "    showPrivateBillTotal() accesses Bill's private total.\n";
-
-    cout << "\n11. TEMPLATE\n";
-    showTemplate(123);
-
-    cout << "\n12. COMPOSITION\n";
-    cout << "    Prescription contains a Medicine object.\n";
-
-    cout << "\n13. FILE HANDLING\n";
-    cout << "    Records are permanently stored in .dat files.\n";
-
-    pauseScreen();
-}
 
 /* ================================================================
    ADMIN DASHBOARD
@@ -2489,43 +2440,6 @@ void login()
     pauseScreen();
 }
 
-/* ================================================================
-   ABOUT PROJECT
-   ================================================================ */
-
-void aboutProject()
-{
-    header((char *)"ABOUT THE COURSE PROJECT");
-
-    cout << "\nPROJECT TITLE\n";
-    cout << "E-Healthcare Management System\n";
-
-    cout << "\nPROJECT OBJECTIVE\n";
-    cout << "To develop a computerized healthcare management\n";
-    cout << "system that organizes patient information, doctors,\n";
-    cout << "appointments, medical records, prescriptions and billing.\n";
-
-    cout << "\nTECHNOLOGY\n";
-    cout << "Language       : C++\n";
-    cout << "Compiler       : Turbo C++\n";
-    cout << "Interface      : Console / Menu Driven\n";
-    cout << "Storage        : File Handling (.dat files)\n";
-
-    cout << "\nMODULES\n";
-    cout << "Patient Management\n";
-    cout << "Doctor Management\n";
-    cout << "Appointment Management\n";
-    cout << "Medical Records\n";
-    cout << "Prescription Management\n";
-    cout << "Billing\n";
-    cout << "Reports\n";
-    cout << "Authentication\n";
-
-    cout << "\nNOTE\n";
-    cout << "This program is developed for academic demonstration.\n";
-
-    pauseScreen();
-}
 
 /* ================================================================
    MAIN
