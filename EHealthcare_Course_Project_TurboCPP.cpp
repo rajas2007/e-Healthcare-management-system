@@ -2476,7 +2476,6 @@ int main()
         header((char *)"MAIN MENU");
 
         cout << "1. Login\n";
-        cout << "2. About Project\n";
         cout << "0. Exit\n";
 
         cout << "\nEnter Choice: ";
@@ -2486,10 +2485,6 @@ int main()
         {
             case 1:
                 login();
-                break;
-
-            case 2:
-                aboutProject();
                 break;
 
             case 0:
